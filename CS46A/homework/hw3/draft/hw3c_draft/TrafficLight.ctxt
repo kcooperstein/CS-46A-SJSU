@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x2\ y2
+comment0.target=TrafficLight(int,\ int)
+comment0.text=\n\ constructs\ a\ traffic\ light\ \n\ \n\ @param\ x2\ takes\ in\ a\ specific\ x\ coordinate\n\ @param\ y2\ takes\ in\ a\ specific\ y\ coordinate\n
+comment1.params=
+comment1.target=void\ draw()
+comment1.text=\n\ draws\ whatever\ it\ is\ told\ to\ draw\n
+numComments=2

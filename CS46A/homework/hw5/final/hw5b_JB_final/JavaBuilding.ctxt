@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=JavaBuilding(double)
+comment0.text=\n\ constructor\ for\ the\ javabuilding\ class\n\ @param\ x\ the\ length\ of\ the\ side\ of\ the\ cube\n
+comment1.params=
+comment1.target=double\ getSurfaceArea()
+comment1.text=\n\ gets\ the\ exposed\ surface\ area\ in\ order\ to\ tell\ how\ much\ paint\ is\ needed\n\ @return\ the\ surface\ area\n
+comment2.params=
+comment2.target=double\ getCost()
+comment2.text=\n\ gets\ the\ cost\ of\ painting\ the\ building\ by\ multiplying\ the\ price\ of\ the\ paint\ by\ the\ surface\ area\n\ @return\ the\ cost\ of\ painting\ the\ building\n
+comment3.params=amount
+comment3.target=void\ increaseSide(double)
+comment3.text=\n\ increases\ the\ side\ length\ of\ the\ building\n\ @param\ amount\ the\ amount\ that\ the\ side\ will\ be\ increased\ by\n
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=limit
+comment0.target=int\ sumEveryThird(int)
+comment1.params=count
+comment1.target=java.lang.String\ countSJSU(int)
+comment2.params=s
+comment2.target=java.lang.String\ noXYZ(java.lang.String)
+numComments=3

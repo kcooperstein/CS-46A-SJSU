@@ -1,0 +1,38 @@
+Class documentation
+<---- javadoc command: ---->
+/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/JDK/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity
+-d
+/Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Users/kaitlyncooperstein/Downloads/BlueJ 3.1.7/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity/StringActivity.java
+<---- end of javadoc command ---->
+Loading source file /Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity/StringActivity.java...
+/Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity/StringActivity.java:13: error: <identifier> expected
+     word.
+          ^
+/Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity/StringActivity.java:13: error: not a statement
+     word.
+         ^
+/Users/kaitlyncooperstein/Desktop/CS46A/class work/String Activity/StringActivity.java:16: error: reached end of file while parsing
+}
+ ^
+3 errors

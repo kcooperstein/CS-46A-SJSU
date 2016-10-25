@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=myString
+comment0.target=StartToFinish(java.lang.String)
+comment0.text=\n\ Constructs\ a\ StartToFinish\ object\n\ @param\ myString\ the\ phase\ for\ this\ object\n
+comment1.params=
+comment1.target=java.lang.String\ firstLetters()
+comment2.params=
+comment2.target=java.lang.String\ lastLetters()
+numComments=3

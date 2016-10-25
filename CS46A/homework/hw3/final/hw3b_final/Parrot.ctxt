@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=theName
+comment0.target=Parrot(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Parrot\n\ \n\ @param\ theName\ the\ name\ of\ the\ parrot\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ gets\ the\ name\ of\ the\ parrot\n\ \n\ @return\ the\ name\ of\ the\ parrot\n
+comment2.params=newName
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\n\ sets\ the\ name\ of\ the\ parrot\n\ \n\ @param\ newName\ sets\ the\ name\ of\ the\ parrot\n
+comment3.params=
+comment3.target=java.lang.String\ whatDoYouWant()
+comment3.text=\n\ gets\ what\ the\ parrot\ wants\ and\ tells\ the\ owner\n\ \n\ @return\ a\ string\ of\ the\ name\ and\ what\ the\ parrot\ wants\n
+comment4.params=whatToDo
+comment4.target=java.lang.String\ doIt(java.lang.String)
+comment4.text=\n\ tells\ the\ parrot\ what\ to\ do\n\ \n\ @param\ whatToDo\ tells\ the\ parrot\ what\ to\ do\ as\ instructions\ from\ the\ owner\n\ @return\ telling\ the\ parrot\ what\ to\ do\n
+numComments=5

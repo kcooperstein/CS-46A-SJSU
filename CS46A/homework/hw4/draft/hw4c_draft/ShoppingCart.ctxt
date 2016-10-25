@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShoppingCart()
+comment0.text=\n\ constructs\ a\ shopping\ cart\n\ \n
+comment1.params=cost
+comment1.target=void\ add(double)
+comment1.text=\n\ adds\ the\ cost\ to\ the\ subtotal\n\ \n\ @param\ cost\ cost\ of\ the\ good\n
+comment2.params=cost
+comment2.target=void\ remove(double)
+comment2.text=\n\ removes\ the\ cost\ of\ the\ good\ from\ the\ subtotal\n\ \n\ @param\ cost\ cost\ of\ the\ good\n
+comment3.params=
+comment3.target=double\ getSubtotal()
+comment3.text=\n\ gets\ the\ subtotal\ of\ the\ Shopping\ Cart\n\ \n\ @return\ the\ subtotal\ of\ the\ Shopping\ Cart\n
+comment4.params=
+comment4.target=double\ getTotal()
+comment4.text=\n\ gets\ the\ total\ of\ the\ Shopping\ Cart\ including\ tax\n\ \n\ @return\ the\ total\ of\ the\ Shopping\ Cart\n
+numComments=5

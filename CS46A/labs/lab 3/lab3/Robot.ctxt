@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=initialX\ initialY
+comment0.target=Robot(int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Robot\n
+comment1.params=
+comment1.target=void\ moveRight()
+comment1.text=\n\ This\ method\ has\ an\ image\ move\ to\ the\ right\n\ \n\ @param\ \ movement\ by\ x,y\n\n
+comment2.params=
+comment2.target=void\ moveDown()
+comment3.params=y
+comment3.target=void\ moveHorizontally(int)
+comment3.text=\n\ This\ method\ has\ an\ image\ move\ horizontally\ by\ the\ images\ width\ multiplied\ by\ a\ user\ input\n\ \n\ @param\ y\ -\ user\ input\ on\ how\ much\ the\ user\ wants\ the\ image\ to\ move\ \n
+comment4.params=x
+comment4.target=void\ moveVertically(int)
+comment5.params=
+comment5.target=int\ getX()
+comment5.text=\ \n\ Gets\ the\ horizontal\ grid\ location\ of\ this\ robot\n\ @return\ the\ horizontal\ grid\ location\n\ \n
+comment6.params=
+comment6.target=int\ getY()
+numComments=7

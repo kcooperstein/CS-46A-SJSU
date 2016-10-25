@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=theFirst\ theMiddle\ theLast
+comment0.target=Emblem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\n\ constructor\ for\ the\ emblem\ class\n\ @param\ theFirst\ the\ first\ name\n\ @param\ theMiddle\ the\ middle\ name\n\ @param\ theLast\ the\ last\ name\n
+comment1.params=
+comment1.target=java.lang.String\ getFirst()
+comment1.text=\n\ gets\ the\ first\ name\n\ @return\ the\ first\ name\n
+comment2.params=
+comment2.target=java.lang.String\ getMiddleInitial()
+comment2.text=\n\ gets\ the\ middle\ name\n\ @return\ the\ middle\ name\n
+comment3.params=
+comment3.target=java.lang.String\ getLast()
+comment3.text=\n\ gets\ the\ last\ name\n\ @return\ the\ last\ name\n
+numComments=4

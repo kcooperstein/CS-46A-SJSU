@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=word
+comment0.target=SpanishTranslator(java.lang.String)
+comment0.text=\n\ constructor\ for\ Spanish\ Translator,\ sets\ up\ the\ instance\ variables\n\ @param\ word\ is\ the\ word\ that\ will\ be\ taken\n
+comment1.params=newSpanishWord
+comment1.target=void\ setSpanish(java.lang.String)
+comment1.text=\n\ sets\ a\ word\ \=\ to\ a\ spanish\ word\n\ @param\ newSpanishWord\ which\ is\ the\ new\ spanish\ word\n
+comment2.params=
+comment2.target=java.lang.String\ getSpanish()
+comment2.text=\n\ gets\ the\ spanish\ word\n\ @return\ the\ spanish\ word\n
+comment3.params=
+comment3.target=java.lang.String\ getEnglish()
+comment3.text=\n\ gets\ the\ english\ version\ of\ the\ spanish\ word\n\ @return\ the\ english\ translation\n
+numComments=4

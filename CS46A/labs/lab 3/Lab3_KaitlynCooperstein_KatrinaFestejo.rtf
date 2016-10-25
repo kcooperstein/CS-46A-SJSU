@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Lab3\
+\
+9/9/16\
+\
+Kaitlyn Cooperstein - Driver\
+Katrina Festejo - Scribe\
+\
+1. I just added another variable by adding \'93private int y;\'94\
+2. public class Robot\
+\{\
+    // instance variables - replace the example below with your own\
+    private int x;\
+    private int y;\
+    /**\
+     * Constructor for objects of class Robot\
+     */\
+    public Robot()\
+    \{\
+        // initialise instance variables\
+        x = 0;\
+    \}\
+\
+    /**\
+     * This method has an image move to the right\
+     * \
+     * @param  movement by x,y\
+     * @return     image moved right \
+     */\
+    public void moveRight(int x, int y)\
+    \{\
+        \
+    \}\
+\}\
+\
+5. public Robot()\
+    \{\
+        // initialise instance variables\
+        x = 0;\
+        y = 0;\
+        pic = new Picture("myrobot.jpeg");\
+    \}\
+7. I added a draw method to the variable \'93pic\'94 and then it drew my robot\
+8. \
+    public void moveRight()\
+    \{\
+        pic.translate(pic.getWidth(), 0);\
+    \}\
+\
+Part B\
+1. public void moveDown()\
+    \{\
+        pic.translate(0, pic.getHeight());\
+    \}\
+3. /**\
+     * This method has an image move horizontally by the images width multiplied by a user input\
+     * \
+     * @param y - user input on how much the user wants the image to move \
+     */\
+4.      pic.translate(pic.getWidth() * y, 0);\
+7. public void moveVertically(int x)\
+    \{\
+        pic.translate(0, pic.getHeight() * x);\
+    \}\
+\
+Part C\
+4. We added x = x + y to the method\
+7.public int getY()\
+    \{\
+        return y;\
+    \}\
+public void moveVertically(int x)\
+    \{\
+        y = pic.getHeight() * java.lang.Math.abs(x); \
+        pic.translate(0, pic.getHeight() * x);\
+    \}\
+\
+These are both the methods we used in order to access y\
+PART D\
+1.public class MoveTester\
+\{\
+   public static void main(String[] args)\
+   \{\
+       Robot robot = new Robot();\
+       robot.moveHorizontally(5);\
+       robot.moveHorizontally(-3);\
+       System.out.println(robot.getX());\
+       System.out.println("expected : 2");\
+  \}\
+\}\
+3. robot.moveVertically(4);\
+       robot.moveVertically(-6);\
+       System.out.println(robot.getY());\
+       System.out.println("expected : -2");\
+8. return pic.getY() / pic.getHeight();\
+\
+PART E \
+3.public void moveRight()\
+    \{\
+        //pic.translate(pic.getWidth(), 0);\
+        this.moveHorizontally(1);\
+    \}\
+5. the tester case would be adding the robot.moveRight() into the test case that was in the Test document\
+9.The changed method uses the \'93this\'94 part of it\
+10.    public Robot(int initialX, int initialY)\
+    \{\
+        // initialise instance variables\
+        initialX = x;\
+        initialY = y;\
+        pic = new Picture("myrobot.jpeg");\
+        pic.draw();\
+    \}}

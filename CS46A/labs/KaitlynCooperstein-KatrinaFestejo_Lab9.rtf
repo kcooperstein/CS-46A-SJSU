@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 ComicSansMS;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red162\green217\blue224;\red162\green217\blue224;
+}
+\margl1440\margr1440\vieww8540\viewh8360\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Lab 9 \
+\
+Kaitlyn Cooperstein - scribe\
+Katrina Fester - driver\
+\
+PART A \
+1. We think that using a, b, and e will be very useful.\
+3. \
+set character to the letter\
+while character is less or = to the length of the word\
+if character is equal to \'93aeiouy\'94 \
+	new string = character + new string\
+	character ++ \
+at the end, print new string\
+5. The computer wouldn\'92t delete the letters from the text string, it just makes a copy and adds it to the result string\
+\
+PART B\
+1. Once :)\
+2. \
+set character to letter\
+while character is less than or = to length of word \
+if character is equal to a vowel\
+	new string vowel = character + new string vowel\
+	character ++\
+else\
+	new string consonant = character + new string consonant\
+	character ++\
+\
+print NSV + NSC\
+\
+PART C\
+1. What needs to be added is that there needs to be like not vowels in order to get the remaining letters\
+3. the method would be getConsonants()\
+4. The two differ in the way that instead of looking for a vowel it would be not vowel and that would add that to the new string\
+\
+PART D\
+2. \
+- the vowel groups would be every time there is a consonant next to a vowel, that would mean the vowel group is over.\
+- you add more vowels when you count, but we would have to change this because then the count would be different because there are different vowel groups\
+- you are done when you hit another consonant \
+3. \
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 count = 0\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 i = 0\
+longest count = 0\
+while i < text.length()\
+   letter = the ith letter in text   \
+   i++\
+   if letter is a vowel\
+      count++\
+      while i < text.length() and the ith letter is a vowel\
+         i++ \
+   if longest count < count \
+	set count to longest count\
+\cb1 4. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb4 \outl0\strokewidth0 count = 0\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf0 i = 0\
+longest count = 0\
+while i < text.length()\
+   letter = the ith letter in text   \
+   i++\
+   if letter is a vowel\
+      count++\
+      while i < text.length() and the ith letter is a vowel\
+         i++ \
+   if longestVowelGroup < count \
+	set count to String longestVowelGroup\
+\
+\cf2 \cb1 \outl0\strokewidth0 \strokec2  5. \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf0 \cb4 \outl0\strokewidth0 i = 0\
+string longestVowelGroup\
+while i < text.length()\
+   newstr = \'93\'94\
+   letter = the ith letter in text   \
+   i++\
+   if letter is a vowel\
+      newstr = letter + newstr\
+      while i < text.length() and the ith letter is a vowel\
+         i++\
+   if longestVowelGroup.length() < newstr.length() \
+	longestVowelGroup = newstr\
+\cb1 return string\
+6. it would be the first one because thats the one it would add first because the second one would be equal, but not longer so it wouldn\'92t take its place.}

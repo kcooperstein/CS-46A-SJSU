@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=theFirst\ theMiddle\ theLast
+comment0.target=Emblem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\n\ constructor\ for\ the\ emblem\ class\n\ @param\ theFirst\ the\ first\ name\n\ @param\ theMiddle\ the\ middle\ name\n\ @param\ theLast\ the\ last\ name\n
+comment1.params=theFirst\ theLast
+comment1.target=Emblem(java.lang.String,\ java.lang.String)
+comment1.text=\n\ the\ constructor\ for\ the\ second\ constructor\ in\ the\ Emblem\ class\n\ @param\ theFirst\ the\ first\ name\n\ @param\ theLast\ the\ last\ name\n
+comment2.params=
+comment2.target=java.lang.String\ getFirst()
+comment2.text=\n\ gets\ the\ first\ name\n\ @return\ the\ first\ name\n
+comment3.params=
+comment3.target=java.lang.String\ getMiddleInitial()
+comment3.text=\n\ gets\ the\ middle\ name\n\ @return\ the\ middle\ name\n
+comment4.params=
+comment4.target=java.lang.String\ getLast()
+comment4.text=\n\ gets\ the\ last\ name\n\ @return\ the\ last\ name\n
+comment5.params=
+comment5.target=int\ characterCount()
+comment5.text=\n\ method\ for\ getting\ the\ length\ of\ the\ whole\ name\ without\ spaces\n\ \n\ @return\ the\ length\ of\ the\ first,\ middle\ initial,\ and\ the\ last\ name\ all\ added\ together\n
+comment6.params=
+comment6.target=java.lang.String\ getFullName()
+comment6.text=\n\ method\ for\ getting\ the\ full\ name\ returning\ with\ spaces\n\ @return\ the\ full\ name,\ first\ name,\ middle\ inital,\ and\ then\ the\ last\ name\ in\ proper\ form\ with\ spacing\n
+comment7.params=
+comment7.target=java.lang.String\ getEmblem()
+comment7.text=\n\ method\ for\ getting\ the\ initials\ for\ the\ Emblem\n\ @return\ the\ first\ character\ of\ the\ first\ name,\ the\ middle\ initial\ and\ then\ the\ first\ character\ of\ the\ last\ name\n
+numComments=8

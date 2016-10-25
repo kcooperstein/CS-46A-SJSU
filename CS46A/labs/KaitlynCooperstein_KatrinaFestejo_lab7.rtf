@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 driver-Kaitlyn\
+scribe-Katrina\
+\
+Lab 7\
+Part A\
+2. Essentially, there will be a robot that can do a few certain things, moving forward, turning left, turning right, and then checking whether or not the front or right side has a window or wall. \
+	- \'93main program\'94: the program will start, then go to the wall, once it hits the wall it will turn left and find a window. Once a window is found, the program will stop.\
+	- the \'93Go to wall\'94 method: this would be a check for whether of not there is a wall in the front of the robot\
+	 - the \'93find window\'94 method: would check whether of not the right has a wall, if it does it would check if the front had a wall, from there, if there is a wall in front and on the right it will turn left. However, if there is a wall on the right, but the front does not have a wall or window, the robot will move forward. \
+3. The problems would be the starting positions and whether or not the robot starts on a certain wall, this would cause functionality problems.\
+4. I would say to look at the certain flowcharts and then see whether all of them work at different starting points.\
+5. At the beginning of the program one could create an if statement to check if it is the robot starts on one of the walls and if it does, then to move it off the wall through a series of if statements.\
+6. scribe part\
+\
+Part B\
+1. The program runs as shown in the lab and then the robot does the moving left once it hits a wall, but once it gets to the window, the program ends.\
+2. We switched the x coordinate and adjusted the y coordinate in order to move it to the left side, the new x and y were (0, 3.5)\
+5.public void findWindow()\
+    \{\
+        while (carol.rightHasWall())\
+        \{\
+            if (carol.frontHasWallorWindow())\
+            \{\
+                carol.turnLeft();\
+            \}\
+            if (carol.rightHasWall())\
+            \{\
+                carol.moveForward();\
+            \}\
+        \}\
+    \} \
+ \
+Our fix was in the loop and after the robot turns left, there must be a wall to their right in order for them to move again, which fixes our corner problems :) \
+	}
